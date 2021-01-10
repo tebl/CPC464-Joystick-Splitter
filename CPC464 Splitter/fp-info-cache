@@ -1,4 +1,4 @@
-19032277520914813
+19048281711765738
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51666,6 +51666,13 @@ heatsink
 0
 2
 1
+IDC_Joystick
+IDC_Joystick
+Through hole straight IDC box header, 2x05, 2.54mm pitch, double rows
+Through hole IDC box header THT 2x05 2.54mm double row
+0
+10
+10
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -74396,6 +74403,13 @@ Straight DE-9 connector, the blue kind with metal shield removed (solder to pads
 9
 9
 RND
+DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm
+9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, male, pitch 2.77x2.84mm, pin-PCB-offset 7.699999999999999mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 9.12mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+9-pin D-Sub connector horizontal angled 90deg THT male pitch 2.77x2.84mm pin-PCB-offset 7.699999999999999mm mounting-holes-distance 25mm mounting-hole-offset 25mm
+0
+11
+10
+RND
 DSUB-9_Male_Vertical_Pitch2.77x2.84mm
 9-pin D-Sub connector, straight/vertical, THT-mount, male, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
 9-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 25mm
@@ -83054,3 +83068,59 @@ varistor SIOV
 0
 2
 2
+artwork
+boot
+
+
+0
+0
+0
+artwork
+ik_plus
+
+
+0
+0
+0
+artwork
+last_ninja
+
+
+0
+0
+0
+artwork
+last_ninja2
+
+
+0
+0
+0
+artwork
+platoon
+
+
+0
+0
+0
+mounting
+M2
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+1
+1
+mounting
+M3
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+0
+0
+mounting
+M3_pin
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+1
+1
