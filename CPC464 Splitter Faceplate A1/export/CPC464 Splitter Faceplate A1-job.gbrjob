@@ -7,13 +7,13 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.8)-1"
     },
-    "CreationDate":  "2021-01-11T00:18:11+01:00"
+    "CreationDate":  "2021-01-11T00:19:28+01:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "CPC464 Splitter",
+      "Name": "CPC464 Splitter Faceplate A1",
       "GUID": "43504334-3634-4205-9370-6c6974746572",
       "Revision": "rev?"
     },
@@ -32,53 +32,54 @@
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
-      "MinLineWidth":  0.250
+      "TrackToRegion":  0.508,
+      "RegionToRegion":  0.508
     }
   ],
   "FilesAttributes":
   [
     {
-      "Path":  "CPC464 Splitter-F_Cu.gtl",
+      "Path":  "CPC464 Splitter Faceplate A1-F_Cu.gtl",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CPC464 Splitter-B_Cu.gbl",
+      "Path":  "CPC464 Splitter Faceplate A1-B_Cu.gbl",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CPC464 Splitter-F_Paste.gtp",
+      "Path":  "CPC464 Splitter Faceplate A1-F_Paste.gtp",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CPC464 Splitter-B_Paste.gbp",
+      "Path":  "CPC464 Splitter Faceplate A1-B_Paste.gbp",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CPC464 Splitter-F_SilkS.gto",
+      "Path":  "CPC464 Splitter Faceplate A1-F_SilkS.gto",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CPC464 Splitter-B_SilkS.gbo",
+      "Path":  "CPC464 Splitter Faceplate A1-B_SilkS.gbo",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "CPC464 Splitter-F_Mask.gts",
+      "Path":  "CPC464 Splitter Faceplate A1-F_Mask.gts",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "CPC464 Splitter-B_Mask.gbs",
+      "Path":  "CPC464 Splitter Faceplate A1-B_Mask.gbs",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "CPC464 Splitter-Edge_Cuts.gm1",
+      "Path":  "CPC464 Splitter Faceplate A1-Edge_Cuts.gm1",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
