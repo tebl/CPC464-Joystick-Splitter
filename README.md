@@ -29,10 +29,21 @@ At this point you might be wondering about the extra holes at the back. If not, 
 ## 1.3> Cable bits
 I've gone into extensive detail on making up the joystick cables, so for a more detailed explanation skip on over to the [C64 JoyKEY](https://github.com/tebl/C64-JoyKEY/blob/main/documentation/building.md#building-the-cables) documentation to see how I did it there. Essentially you just take a *2x5 pin IDC JTAG AVR cable* (common ebay listing description), find the end that fits nicely into the keying on the board and cut off the other. Take a female IDC flat cable DB9 connector, match up pin 1 with the red stripe on the cable and squeeze really hard with something to lock it into place on the cable. Wrap the cable over and push the strain relief on the connector.
 
+![Cable alignment](https://github.com/tebl/CPC464-Joystick-Splitter/raw/main/gallery/2021-02-05%2003.13.04.jpg)
+
 ## 1.4> Testing it out
 Given the way the Amstrad CPC was constructed, testing actually don't require any software at all - just plug it in and try messing around with the joystick. If it works you'll see characters printed on the screen, this is because the joystick is electrically linked with the keyboard so it'll register as key presses.
 
+![ArcadeR](https://github.com/tebl/CPC464-Joystick-Splitter/raw/main/gallery/2021-02-05%2000.27.44.jpg)
+
 From a technical point of view I don't know if this was pure genius, or just a very cheap hack done in order to save money. I'm leaning toward the latter as it mostly meant that the cost-cutting measures saved them a single joystick connector as well as at most a chip or two, loosing support for common Atari-style joysticks with autofire at the same time.
+
+As already mentioned the splitter allows the use of Atari-style joysticks with a standard pinout, but while I've tested a few - there are only a limited selection that support actually support two fire buttons. The one I've tested are as follows:
+- ArcadeR (RetroRadionics)
+- [C64 JoyKEY](https://github.com/tebl/C64-JoyKEY/blob/main/documentation/configuration.md#11-amstrad-cpc-464)
+- Sega Master System gamepads
+
+![C64 JoyKEY](https://github.com/tebl/CPC464-Joystick-Splitter/raw/main/gallery/2021-02-05%2001.27.01.jpg)
 
 # 2> Schematic
 The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](documentation/schematic) and this is what you'll need to print and work your way through this things don't work as expected after assembly.
