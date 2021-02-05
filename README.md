@@ -51,17 +51,17 @@ The supplied KiCad files should be sufficient as both a schematic and as a  star
 # 3> BOM
 Most parts should be easy to get a hold of from your favourite local electronic component shop, but given that I don't have access to such shops where I live so everything was based on whatever I could get cheapest from eBay/AliExpress (free shipping, but plan on waiting 3-4 weeks for delivery).
 
-| Reference     | Item                                                           | Count |
-| ------------- | -------------------------------------------------------------- | ----- |
-| PCB           | Fabricate using Gerber files                                   |     1 |
-| PCB Faceplate | Fabricate using Gerber files                                   |    (1)|
-| D1-D12        | 1n4148 diode DO-35                                             |    12 | 
-| J1,J2         | Female DB9 right-angle connector                               |     2 |
-| J3 *          | 2x5 pin male IDC socket                                        |     1 |
-| DB9 cable **  | Ribbon cable (9 wires), DB-9 female IDC and 2x5 pin female IDC |     1 |
-| Mounting ***  | M3x6mm nylon HEX standoff                                      |    (4)|
-| Mounting ***  | M3x6mm nylon hex screw                                         |    (4)|
-| Mounting ***  | M3 nylon nut                                                   |    (4)|
+| Reference     | Item                                                           | Count | Order  |
+| ------------- | -------------------------------------------------------------- | ----- | ------ |
+| PCB           | Fabricate using Gerber files                                   |     1 | [PCBWay](https://www.pcbway.com/project/shareproject/CPC464_Joystick_Splitter.html) |
+| PCB Faceplate | Fabricate using Gerber files                                   |    (1)| [PCBWay](https://www.pcbway.com/project/shareproject/CPC464_Joystick_Splitter__Faceplate_A1_.html) |
+| D1-D12        | 1n4148 diode DO-35                                             |    12 |        | 
+| J1,J2         | Female DB9 right-angle connector                               |     2 |        |
+| J3 *          | 2x5 pin male IDC socket                                        |     1 |        |
+| DB9 cable **  | Ribbon cable (9 wires), DB-9 female IDC and 2x5 pin female IDC |     1 |        |
+| Mounting ***  | M3x6mm nylon HEX standoff                                      |    (4)|        |
+| Mounting ***  | M3x6mm nylon hex screw                                         |    (4)|        |
+| Mounting ***  | M3 nylon nut                                                   |    (4)|        |
 
 *) Can use regular double row pin headers, but it is recommended to use IDC socket as it has keying.
 
